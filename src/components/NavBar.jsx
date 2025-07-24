@@ -2,7 +2,7 @@ import logo from '../assets/logo.png';
 import cart from '../assets/cart.png';
 import { useState } from 'react';
 
-import '../Navbar.css';
+import '../NavBar.css';
 
 function Navbar() {
   const [showCart, setShowCart] = useState(false);
