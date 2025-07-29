@@ -1,14 +1,14 @@
 // src/App.jsx
 import Navbar from './components/Navbar.jsx';
-import Productos from './components/Productos.jsx'; // Asegúrate de la ruta correcta
+import Productos from './components/ItemListContainer.jsx';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Productos />
+      <Productos mensaje="Bienvenido a nuestra tienda" />
     </>
-    
+
   );
 }
 

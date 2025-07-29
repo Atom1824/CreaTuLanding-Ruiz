@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import '/src/productos.css'; 
 
-function Productos() {
+function Productos({ mensaje }) {
   const [productos, setProductos] = useState([]);
 
   useEffect(() => {
     const obtenerProductos = async () => {
       try {
-        const response = await fetch('');
+        const response = await fetch(''); 
         const data = await response.json();
         setProductos(data);
       } catch (error) {
@@ -20,7 +20,7 @@ function Productos() {
 
   return (
     <div className='productos'>
-      <h2>Productos</h2>
+      <h2>{mensaje}</h2>
       <div className='product-list'>
         {productos.map((producto) => (
           <div key={producto.id} className='product-item'>
