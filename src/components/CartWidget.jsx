@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useCart } from "./CartContext";
 import cartIcon from "../assets/cart.png";
-import '../NavBar.css';
+import '../Navbar.css';
 
 function CartWidget() {
   const { cartItems, removeItem, clearCart, purchase } = useCart();
