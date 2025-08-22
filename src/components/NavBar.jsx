@@ -5,7 +5,7 @@ import { useState } from 'react';
 import '../NavBar.css';
 
 function Navbar() {
-  const [showCart, setShowCart] = useState(false);
+ 
 
   return (
     <>
@@ -13,7 +13,11 @@ function Navbar() {
         <a href="">
           <img src={logo} alt="Logo" style={{ height: '100%' }} className='logo' />
         </a>
-
+        <div className='navBarList'>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="#">PlayStation 5</a></li>
+          <li><a href="#">Catalogo</a></li>
+        </div>
        <CartWidget/>
       </nav>
     </>

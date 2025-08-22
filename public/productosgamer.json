@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "nombre": "Silla gamer ergonómica",
+    "categoria": "accesorio",
+    "precio": 7404,
+    "imagen": "https://i5.walmartimages.com/asr/dc6dbe4d-60a5-42ac-a8e2-c5f603c418d0.aff36093bf7825f187a2c49728977787.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 42,
+    "descripcion": "Silla gamer ergonómica - producto gamer categoría accesorio"
+  },
+  {
+    "id": 2,
+    "nombre": "Auriculares con micrófono",
+    "categoria": "accesorio",
+    "precio": 7025,
+    "imagen": "https://m.media-amazon.com/images/I/71A-tk9Bh-L.jpg",
+    "stock": 38,
+    "descripcion": "Auriculares con micrófono - producto gamer categoría accesorio"
+  },
+  {
+    "id": 3,
+    "nombre": "GTA V",
+    "categoria": "videojuego",
+    "precio": 9803,
+    "imagen": "https://ss423.liverpool.com.mx/xl/1071162644.jpg",
+    "stock": 17,
+    "descripcion": "GTA V - producto gamer categoría videojuego"
+  },
+  {
+    "id": 4,
+    "nombre": "Cyberpunk 2077",
+    "categoria": "videojuego",
+    "precio": 6987,
+    "imagen": "https://m.media-amazon.com/images/I/810iVtG1iuL.jpg",
+    "stock": 31,
+    "descripcion": "Cyberpunk 2077 - producto gamer categoría videojuego"
+  },
+  {
+    "id": 5,
+    "nombre": "Refrigeración líquida",
+    "categoria": "hardware",
+    "precio": 7222,
+    "imagen": "https://m.media-amazon.com/images/I/61RHsnSUtjL._UY1000_.jpg",
+    "stock": 15,
+    "descripcion": "Refrigeración líquida - producto gamer categoría hardware"
+  },
+  {
+    "id": 6,
+    "nombre": "Tarjeta gráfica RTX 3060",
+    "categoria": "hardware",
+    "precio": 3407,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPAavIzv23d_us8Qmh-OiPMpJUmgjRK80ifQ&s",
+    "stock": 38,
+    "descripcion": "Tarjeta gráfica RTX 3060 - producto gamer categoría hardware"
+  },
+  {
+    "id": 7,
+    "nombre": "Mouse gamer 7200 DPI",
+    "categoria": "accesorio",
+    "precio": 3171,
+    "imagen": "https://m.media-amazon.com/images/I/51NILE4rh-L._UF1000,1000_QL80_.jpg",
+    "stock": 2,
+    "descripcion": "Mouse gamer 7200 DPI - producto gamer categoría accesorio"
+  },
+  {
+    "id": 8,
+    "nombre": "Micrófono profesional",
+    "categoria": "accesorio",
+    "precio": 1282,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7gftSzwFZD3ERZUUNxi8SM0c8Xnhy46SvSA&s",
+    "stock": 28,
+    "descripcion": "Micrófono profesional - producto gamer categoría accesorio"
+  },
+  {
+    "id": 9,
+    "nombre": "Capturadora de video",
+    "categoria": "accesorio",
+    "precio": 7940,
+    "imagen": "https://m.media-amazon.com/images/I/71XgToX8duL.jpg",
+    "stock": 31,
+    "descripcion": "Capturadora de video - producto gamer categoría accesorio"
+  },
+  {
+    "id": 10,
+    "nombre": "Silla gamer ergonómica",
+    "categoria": "accesorio",
+    "precio": 1315,
+    "imagen": "https://m.media-amazon.com/images/I/71ODi4xwnuL.jpg",
+    "stock": 46,
+    "descripcion": "Silla gamer ergonómica - producto gamer categoría accesorio"
+  },
+  {
+    "id": 11,
+    "nombre": "The Witcher 3: Wild Hunt",
+    "categoria": "videojuego",
+    "precio": 2892,
+    "imagen": "https://tupuntoplay.com/cdn/shop/files/thumb_show_b6af05a4-9f3a-4e52-b96d-0978fcaeab26.jpg?v=1721832279",
+    "stock": 6,
+    "descripcion": "The Witcher 3: Wild Hunt - producto gamer categoría videojuego"
+  },
+  {
+    "id": 12,
+    "nombre": "Silla gamer ergonómica",
+    "categoria": "accesorio",
+    "precio": 5593,
+    "imagen": "https://doto.vtexassets.com/arquivos/ids/259429-800-800?v=638086256022800000&width=800&height=800&aspect=true",
+    "stock": 30,
+    "descripcion": "Silla gamer ergonómica - producto gamer categoría accesorio"
+  },
+  {
+    "id": 13,
+    "nombre": "GTA V",
+    "categoria": "videojuego",
+    "precio": 1543,
+    "imagen": "https://i5-mx.walmartimages.com/mg/gm/1p/images/product-images/img_large/00071042557868l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 14,
+    "descripcion": "GTA V - producto gamer categoría videojuego"
+  },
+  {
+    "id": 14,
+    "nombre": "Placa madre ASUS B550",
+    "categoria": "hardware",
+    "precio": 7463,
+    "imagen": "https://dlcdnimgs.asus.com/websites/global/products/uri12btqafuvwte6/img/kv/pd.png",
+    "stock": 1,
+    "descripcion": "Placa madre ASUS B550 - producto gamer categoría hardware"
+  },
+  {
+    "id": 15,
+    "nombre": "Auriculares con micrófono",
+    "categoria": "accesorio",
+    "precio": 3830,
+    "imagen": "https://samaraonline.com.mx/web/image/product.template/890/image_1024?unique=d48ccb2",
+    "stock": 31,
+    "descripcion": "Auriculares con micrófono - producto gamer categoría accesorio"
+  },
+  {
+    "id": 16,
+    "nombre": "Silla gamer ergonómica",
+    "categoria": "accesorio",
+    "precio": 8630,
+    "imagen": "https://media.mipc.com.mx/catalog/product/5/9/5988902_1_788ea84bfaeaf4f86e24add8dca1492e.jpg?store=default&image-type=image",
+    "stock": 40,
+    "descripcion": "Silla gamer ergonómica - producto gamer categoría accesorio"
+  },
+  {
+    "id": 17,
+    "nombre": "Mouse gamer 7200 DPI",
+    "categoria": "accesorio",
+    "precio": 1432,
+    "imagen": "https://ss628.liverpool.com.mx/xl/1100986384.jpg",
+    "stock": 6,
+    "descripcion": "Mouse gamer 7200 DPI - producto gamer categoría accesorio"
+  },
+  {
+    "id": 18,
+    "nombre": "Control inalámbrico Xbox",
+    "categoria": "accesorio",
+    "precio": 582,
+    "imagen": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00088984271688L3.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 46,
+    "descripcion": "Control inalámbrico Xbox - producto gamer categoría accesorio"
+  },
+  {
+    "id": 19,
+    "nombre": "Hogwarts Legacy",
+    "categoria": "videojuego",
+    "precio": 4462,
+    "imagen": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00088392973079l.jpg",
+    "stock": 44,
+    "descripcion": "Hogwarts Legacy - producto gamer categoría videojuego"
+  },
+  {
+    "id": 20,
+    "nombre": "Tarjeta gráfica RTX 3060",
+    "categoria": "hardware",
+    "precio": 4004,
+    "imagen": "https://images.pcel.com/1600/Hardware-Tarjetas-de-Video-PNY-VCG306012DFMPB-412336-wVCbaak145b4TVce.jpg",
+    "stock": 0,
+    "descripcion": "Tarjeta gráfica RTX 3060 - producto gamer categoría hardware"
+  },
+  {
+    "id": 21,
+    "nombre": "Refrigeración líquida",
+    "categoria": "hardware",
+    "precio": 2502,
+    "imagen": "https://m.media-amazon.com/images/I/71RSqp-II3L.jpg",
+    "stock": 9,
+    "descripcion": "Refrigeración líquida - producto gamer categoría hardware"
+  },
+  {
+    "id": 22,
+    "nombre": "Auriculares con micrófono",
+    "categoria": "accesorio",
+    "precio": 2034,
+    "imagen": "https://www.achemex.com/cdn/shop/products/41tUykF5vCL.jpg?v=1681933867",
+    "stock": 47,
+    "descripcion": "Auriculares con micrófono - producto gamer categoría accesorio"
+  },
+  {
+    "id": 23,
+    "nombre": "Refrigeración líquida",
+    "categoria": "hardware",
+    "precio": 8635,
+    "imagen": "https://i5.walmartimages.com/asr/df61cec4-92ff-4305-bc81-d869fc3b0a06.424291e42f9a631ad477b65957c8f02a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 8,
+    "descripcion": "Refrigeración líquida - producto gamer categoría hardware"
+  },
+  {
+    "id": 24,
+    "nombre": "Silla gamer ergonómica",
+    "categoria": "accesorio",
+    "precio": 3944,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdI5nfAQsvKTkasPhJZF8633qdDSEGJApVoA&s",
+    "stock": 32,
+    "descripcion": "Silla gamer ergonómica - producto gamer categoría accesorio"
+  },
+  {
+    "id": 25,
+    "nombre": "Monitor 144Hz 24 pulgadas",
+    "categoria": "hardware",
+    "precio": 6881,
+    "imagen": "https://www.lg.com/content/dam/channel/wcms/pe/images/monitores/24gn600-b_awf_espr_pe_c/gallery/Z-01.jpg",
+    "stock": 2,
+    "descripcion": "Monitor 144Hz 24 pulgadas - producto gamer categoría hardware"
+  },
+  {
+    "id": 26,
+    "nombre": "Gabinete con RGB",
+    "categoria": "hardware",
+    "precio": 5258,
+    "imagen": "https://www.xtremepc.com.mx/cdn/shop/files/c377a71d-9949-42e6-89cb-d15bd554b428_800x.png?v=1732269565",
+    "stock": 31,
+    "descripcion": "Gabinete con RGB - producto gamer categoría hardware"
+  },
+  {
+    "id": 27,
+    "nombre": "Placa madre ASUS B550",
+    "categoria": "hardware",
+    "precio": 5553,
+    "imagen": "https://images.pcel.com/1600/Hardware-Tarjetas-Madre-ASUS-ROG-STRIX-B550-F-GAMING-WIFI-II-421444-Mm7wwKtq2yxjbf4c.jpg",
+    "stock": 33,
+    "descripcion": "Placa madre ASUS B550 - producto gamer categoría hardware"
+  },
+  {
+    "id": 28,
+    "nombre": "Teclado mecánico RGB",
+    "categoria": "hardware",
+    "precio": 7442,
+    "imagen": "https://m.media-amazon.com/images/I/71yB4KVzWhL._UF894,1000_QL80_.jpg",
+    "stock": 45,
+    "descripcion": "Teclado mecánico RGB - producto gamer categoría hardware"
+  },
+  {
+    "id": 29,
+    "nombre": "Control inalámbrico Xbox",
+    "categoria": "accesorio",
+    "precio": 8303,
+    "imagen": "https://ss026.suburbia.com.mx/xl/5011689908.jpg",
+    "stock": 34,
+    "descripcion": "Control inalámbrico Xbox - producto gamer categoría accesorio"
+  },
+  {
+    "id": 30,
+    "nombre": "RAM 16GB DDR4",
+    "categoria": "hardware",
+    "precio": 8392,
+    "imagen": "https://www.supermexdigital.mx/web/image/product.template/25478/image_1024?unique=208544f",
+    "stock": 14,
+    "descripcion": "RAM 16GB DDR4 - producto gamer categoría hardware"
+  },
+  {
+    "id": 31,
+    "nombre": "Minecraft",
+    "categoria": "videojuego",
+    "precio": 6899,
+    "imagen": "https://m.media-amazon.com/images/I/81R2g81VbmL.jpg",
+    "stock": 23,
+    "descripcion": "Minecraft - producto gamer categoría videojuego"
+  },
+  {
+    "id": 32,
+    "nombre": "Mouse gamer 7200 DPI",
+    "categoria": "accesorio",
+    "precio": 513,
+    "imagen": "https://vortred.com/cdn/shop/files/TrapperExtreme1.jpg?v=1736890495",
+    "stock": 17,
+    "descripcion": "Mouse gamer 7200 DPI - producto gamer categoría accesorio"
+  },
+  {
+    "id": 33,
+    "nombre": "Mouse gamer 7200 DPI",
+    "categoria": "accesorio",
+    "precio": 7784,
+    "imagen": "https://media.mipc.com.mx/catalog/product/0/1/0178ac23ef179f37157908b154e8be82.jpg?store=default&image-type=image",
+    "stock": 23,
+    "descripcion": "Mouse gamer 7200 DPI - producto gamer categoría accesorio"
+  },
+  {
+    "id": 34,
+    "nombre": "Teclado mecánico RGB",
+    "categoria": "hardware",
+    "precio": 5036,
+    "imagen": "https://m.media-amazon.com/images/I/71yB4KVzWhL._UF894,1000_QL80_.jpg",
+    "stock": 42,
+    "descripcion": "Teclado mecánico RGB - producto gamer categoría hardware"
+  },
+  {
+    "id": 35,
+    "nombre": "Monitor 144Hz 24 pulgadas",
+    "categoria": "hardware",
+    "precio": 1780,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtax2F8ltUK8FZLLJyGObiNLyPMVWc1AqkLA&s",
+    "stock": 3,
+    "descripcion": "Monitor 144Hz 24 pulgadas - producto gamer categoría hardware"
+  },
+  {
+    "id": 36,
+    "nombre": "Teclado mecánico RGB",
+    "categoria": "hardware",
+    "precio": 4969,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpMDLxJ9KH33NUOuFzPNlXxd8O-a17CSWKzw&s",
+    "stock": 50,
+    "descripcion": "Teclado mecánico RGB - producto gamer categoría hardware"
+  },
+  {
+    "id": 37,
+    "nombre": "Tarjeta gráfica RTX 3060",
+    "categoria": "hardware",
+    "precio": 9055,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnAA6hZJCwmHT2H1EayRBhxMSjtn7uayFTpw&s",
+    "stock": 0,
+    "descripcion": "Tarjeta gráfica RTX 3060 - producto gamer categoría hardware"
+  },
+  {
+    "id": 38,
+    "nombre": "Minecraft",
+    "categoria": "videojuego",
+    "precio": 9028,
+    "imagen": "https://m.media-amazon.com/images/I/71VZJPZu8tL.jpg",
+    "stock": 15,
+    "descripcion": "Minecraft - producto gamer categoría videojuego"
+  },
+  {
+    "id": 39,
+    "nombre": "Red Dead Redemption 2",
+    "categoria": "videojuego",
+    "precio": 4988,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIznSJR96c5ODp_EPtujb3lFR7cR7BNlWDEQ&s",
+    "stock": 20,
+    "descripcion": "Red Dead Redemption 2 - producto gamer categoría videojuego"
+  },
+  {
+    "id": 40,
+    "nombre": "Cyberpunk 2077",
+    "categoria": "videojuego",
+    "precio": 4125,
+    "imagen": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00088392968983l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 0,
+    "descripcion": "Cyberpunk 2077 - producto gamer categoría videojuego"
+  },
+  {
+    "id": 41,
+    "nombre": "Alfombrilla XXL RGB",
+    "categoria": "accesorio",
+    "precio": 9814,
+    "imagen": "https://m.media-amazon.com/images/I/81hBgDegidL.jpg",
+    "stock": 3,
+    "descripcion": "Alfombrilla XXL RGB - producto gamer categoría accesorio"
+  },
+  {
+    "id": 42,
+    "nombre": "Gabinete con RGB",
+    "categoria": "hardware",
+    "precio": 2027,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMOjlpfTkf0p9QPByO2g585cOAfigB3x0Y5A&s",
+    "stock": 30,
+    "descripcion": "Gabinete con RGB - producto gamer categoría hardware"
+  },
+  {
+    "id": 43,
+    "nombre": "Teclado mecánico RGB",
+    "categoria": "hardware",
+    "precio": 4132,
+    "imagen": "https://ignitestore.mx/assets/uploads/sw_kbg800_1.png",
+    "stock": 40,
+    "descripcion": "Teclado mecánico RGB - producto gamer categoría hardware"
+  },
+  {
+    "id": 44,
+    "nombre": "Control inalámbrico Xbox",
+    "categoria": "accesorio",
+    "precio": 9048,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKQ7bejdRAfHn6a1Uxd9sUyQ3NzVwgGBqvQQ&s",
+    "stock": 6,
+    "descripcion": "Control inalámbrico Xbox - producto gamer categoría accesorio"
+  },
+  {
+    "id": 45,
+    "nombre": "FIFA 24",
+    "categoria": "videojuego",
+    "precio": 1478,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_680192-MLU74071993470_012024-O.webp",
+    "stock": 31,
+    "descripcion": "FIFA 24 - producto gamer categoría videojuego"
+  },
+  {
+    "id": 46,
+    "nombre": "God of War: Ragnarok (PS5)",
+    "categoria": "videojuego",
+    "precio": 1743,
+    "imagen": "https://m.media-amazon.com/images/I/81y04KOYn3L._UF1000,1000_QL80_.jpg",
+    "stock": 22,
+    "descripcion": "God of War: Ragnarok (PS5) - producto gamer categoría videojuego"
+  },
+  {
+    "id": 47,
+    "nombre": "God of War: Ragnarok (PS5)",
+    "categoria": "videojuego",
+    "precio": 2157,
+    "imagen": "https://m.media-amazon.com/images/I/81y04KOYn3L._UF1000,1000_QL80_.jpg",
+    "stock": 37,
+    "descripcion": "God of War: Ragnarok (PS5) - producto gamer categoría videojuego"
+  },
+  {
+    "id": 48,
+    "nombre": "Call of Duty: Modern Warfare II",
+    "categoria": "videojuego",
+    "precio": 4008,
+    "imagen": "https://www.costco.com.mx/medias/sys_master/products/h97/h8c/115167902957598.jpg",
+    "stock": 6,
+    "descripcion": "Call of Duty: Modern Warfare II - producto gamer categoría videojuego"
+  },
+  {
+    "id": 49,
+    "nombre": "Monitor 144Hz 24 pulgadas",
+    "categoria": "hardware",
+    "precio": 9729,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb4cysoIHq8zv5_7EFadJ3qSU_SGBy-YJGRQ&s",
+    "stock": 48,
+    "descripcion": "Monitor 144Hz 24 pulgadas - producto gamer categoría hardware"
+  },
+  {
+    "id": 50,
+    "nombre": "Refrigeración líquida",
+    "categoria": "hardware",
+    "precio": 4062,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_640269-MLU74425788460_022024-O.webp",
+    "stock": 15,
+    "descripcion": "Refrigeración líquida - producto gamer categoría hardware"
+  },
+  {
+    "id": 51,
+    "nombre": "Minecraft",
+    "categoria": "videojuego",
+    "precio": 9735,
+    "imagen": "https://m.media-amazon.com/images/I/81EXJRmpPfL.jpg",
+    "stock": 24,
+    "descripcion": "Minecraft - producto gamer categoría videojuego"
+  },
+  {
+    "id": 52,
+    "nombre": "Mouse gamer 7200 DPI",
+    "categoria": "accesorio",
+    "precio": 2686,
+    "imagen": "https://www.radioshack.com.mx/store/medias/100180109.jpg-515ftw?context=bWFzdGVyfHJvb3R8MTE3MzMxfGltYWdlL2pwZWd8YURjd0wyZzFZUzg1TVRrMU9EVTRORGt6TkRjd0x6RXdNREU0TURFd09TNXFjR2RmTlRFMVpuUjN8NWE1YzM2NGM2NDJiN2EzZjA2NmQyNDRjNWUyODJkY2EyOTk2NTEzNWU0MmM5ZTg5NmM3NmMzNWY1OTk4ZTQ1NQ",
+    "stock": 1,
+    "descripcion": "Mouse gamer 7200 DPI - producto gamer categoría accesorio"
+  },
+  {
+    "id": 53,
+    "nombre": "Teclado mecánico RGB",
+    "categoria": "hardware",
+    "precio": 6012,
+    "imagen": "https://assets.spartangeek.com/cc/thumbs/user_1/_AUTOxAUTO_crop_center-center_none/36325/Teclado-EVGA-Z15-3.webp",
+    "stock": 45,
+    "descripcion": "Teclado mecánico RGB - producto gamer categoría hardware"
+  },
+  {
+    "id": 54,
+    "nombre": "Micrófono profesional",
+    "categoria": "accesorio",
+    "precio": 9383,
+    "imagen": "https://ss631.liverpool.com.mx/xl/1121233947.jpg",
+    "stock": 49,
+    "descripcion": "Micrófono profesional - producto gamer categoría accesorio"
+  },
+  {
+    "id": 55,
+    "nombre": "RAM 16GB DDR4",
+    "categoria": "hardware",
+    "precio": 2477,
+    "imagen": "https://www.pcdigital.com.mx/wp-content/uploads/2022/10/KF432C16BB16.jpg",
+    "stock": 41,
+    "descripcion": "RAM 16GB DDR4 - producto gamer categoría hardware"
+  },
+  {
+    "id": 56,
+    "nombre": "Tarjeta gráfica RTX 3060",
+    "categoria": "hardware",
+    "precio": 5555,
+    "imagen": "https://m.media-amazon.com/images/I/71MkAl85kqL.jpg",
+    "stock": 12,
+    "descripcion": "Tarjeta gráfica RTX 3060 - producto gamer categoría hardware"
+  },
+  {
+    "id": 57,
+    "nombre": "Refrigeración líquida",
+    "categoria": "hardware",
+    "precio": 8932,
+    "imagen": "https://hardzone.es/app/uploads-hardzone.es/2018/03/refrigeraci%C3%B3n-l%C3%ADquida-de-circuito-abierto-edit.jpg",
+    "stock": 1,
+    "descripcion": "Refrigeración líquida - producto gamer categoría hardware"
+  },
+  {
+    "id": 58,
+    "nombre": "GTA V",
+    "categoria": "videojuego",
+    "precio": 6020,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXfUVZ5dKlRuSY9T6yf09CVZdx1fJHgQRWuw&s",
+    "stock": 2,
+    "descripcion": "GTA V - producto gamer categoría videojuego"
+  },
+  {
+    "id": 59,
+    "nombre": "The Witcher 3: Wild Hunt",
+    "categoria": "videojuego",
+    "precio": 9354,
+    "imagen": "https://m.media-amazon.com/images/I/81hYSSuRr9L.jpg",
+    "stock": 38,
+    "descripcion": "The Witcher 3: Wild Hunt - producto gamer categoría videojuego"
+  },
+  {
+    "id": 60,
+    "nombre": "Hogwarts Legacy",
+    "categoria": "videojuego",
+    "precio": 7850,
+    "imagen": "https://i5-mx.walmartimages.com/mg/gm/1p/images/product-images/img_large/00088392979485-1l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 30,
+    "descripcion": "Hogwarts Legacy - producto gamer categoría videojuego"
+  },
+  {
+    "id": 61,
+    "nombre": "Base de enfriamiento",
+    "categoria": "accesorio",
+    "precio": 3189,
+    "imagen": "https://www.radioshack.com.mx/store/medias/100148926.jpg-515ftw?context=bWFzdGVyfHJvb3R8OTM0NTl8aW1hZ2UvanBlZ3xhRFJoTDJnellpODVNVGt6T0RrNE16YzNNalEyTHpFd01ERTBPRGt5Tmk1cWNHZGZOVEUxWm5SM3xlZGZlMjZkZjI4MDIyNDNlMDM0YWJiMzI3ZjZjOTU0ZGYxODgxYjcyMjRhYTBhOWNmMmE3NTg4ODU5ZTBlYWM2",
+    "stock": 38,
+    "descripcion": "Base de enfriamiento - producto gamer categoría accesorio"
+  },
+  {
+    "id": 62,
+    "nombre": "Capturadora de video",
+    "categoria": "accesorio",
+    "precio": 6208,
+    "imagen": "https://http2.mlstatic.com/D_855335-MLM53065779583_122022-C.jpg",
+    "stock": 12,
+    "descripcion": "Capturadora de video - producto gamer categoría accesorio"
+  },
+  {
+    "id": 63,
+    "nombre": "Soporte para auriculares",
+    "categoria": "accesorio",
+    "precio": 8592,
+    "imagen": "https://ss637.liverpool.com.mx/xl/1149142947.jpg",
+    "stock": 9,
+    "descripcion": "Soporte para auriculares - producto gamer categoría accesorio"
+  },
+  {
+    "id": 64,
+    "nombre": "Red Dead Redemption 2",
+    "categoria": "videojuego",
+    "precio": 4508,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrg1DbI-ceSddu_DKmxX-LWvSlVycVfOz_nQ&s",
+    "stock": 10,
+    "descripcion": "Red Dead Redemption 2 - producto gamer categoría videojuego"
+  },
+  {
+    "id": 65,
+    "nombre": "Capturadora de video",
+    "categoria": "accesorio",
+    "precio": 4246,
+    "imagen": "https://via.placeholder.com/150",
+    "stock": 23,
+    "descripcion": "Capturadora de video - producto gamer categoría accesorio"
+  },
+  {
+    "id": 66,
+    "nombre": "Mouse gamer 7200 DPI",
+    "categoria": "accesorio",
+    "precio": 3690,
+    "imagen": "https://images.pcel.com/1600/Electronica-Captura-de-Video-y-Sintonizadores-de-TV-StarTech-USB3HDCAP-135246-hg7ZCghlZvneMg7N.jpg",
+    "stock": 43,
+    "descripcion": "Mouse gamer 7200 DPI - producto gamer categoría accesorio"
+  },
+  {
+    "id": 67,
+    "nombre": "The Witcher 3: Wild Hunt",
+    "categoria": "videojuego",
+    "precio": 7544,
+    "imagen": "https://m.media-amazon.com/images/I/81mUHtzP1uL.jpg",
+    "stock": 28,
+    "descripcion": "The Witcher 3: Wild Hunt - producto gamer categoría videojuego"
+  },
+  {
+    "id": 68,
+    "nombre": "Fuente de poder 750W",
+    "categoria": "hardware",
+    "precio": 9838,
+    "imagen": "https://www.steren.com.mx/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/1955175cc/fuente-de-poder-atx-para-pc-de-400-w.jpg",
+    "stock": 0,
+    "descripcion": "Fuente de poder 750W - producto gamer categoría hardware"
+  },
+  {
+    "id": 69,
+    "nombre": "God of War: Ragnarok (PS5)",
+    "categoria": "videojuego",
+    "precio": 9890,
+    "imagen": "https://www.gamecenter.com.mx/203093-large_default/god-of-war-ragnarok-ps4.jpg",
+    "stock": 44,
+    "descripcion": "God of War: Ragnarok (PS5) - producto gamer categoría videojuego"
+  },
+  {
+    "id": 70,
+    "nombre": "Micrófono profesional",
+    "categoria": "accesorio",
+    "precio": 704,
+    "imagen": "https://i5.walmartimages.com/asr/0fcc6fd3-e109-45bd-82fd-616addf50a65.4c26a97d966d1e6bc46c201c80d3a989.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 0,
+    "descripcion": "Micrófono profesional - producto gamer categoría accesorio"
+  },
+  {
+    "id": 71,
+    "nombre": "Hogwarts Legacy",
+    "categoria": "videojuego",
+    "precio": 4282,
+    "imagen": "https://m.media-amazon.com/images/I/714QOvdGrBL.jpg",
+    "stock": 37,
+    "descripcion": "Hogwarts Legacy - producto gamer categoría videojuego"
+  },
+  {
+    "id": 72,
+    "nombre": "Gabinete con RGB",
+    "categoria": "hardware",
+    "precio": 4674,
+    "imagen": "https://intercompras.com/images/product/CORSAIR_CC-9011212-WW.jpg",
+    "stock": 28,
+    "descripcion": "Gabinete con RGB - producto gamer categoría hardware"
+  },
+  {
+    "id": 73,
+    "nombre": "Fuente de poder 750W",
+    "categoria": "hardware",
+    "precio": 5201,
+    "imagen": "https://jaltechsas.com/wp-content/uploads/2023/09/FUENTE-DE-PODER-PC-300W_80326_JAL-ATX-300_1-600x600.png",
+    "stock": 29,
+    "descripcion": "Fuente de poder 750W - producto gamer categoría hardware"
+  },
+  {
+    "id": 74,
+    "nombre": "The Witcher 3: Wild Hunt",
+    "categoria": "videojuego",
+    "precio": 9148,
+    "imagen": "https://m.media-amazon.com/images/I/81uNXWVXZJL._UF1000,1000_QL80_.jpg",
+    "stock": 36,
+    "descripcion": "The Witcher 3: Wild Hunt - producto gamer categoría videojuego"
+  },
+  {
+    "id": 75,
+    "nombre": "Capturadora de video",
+    "categoria": "accesorio",
+    "precio": 1226,
+    "imagen": "https://pcdomino.com/cdn/shop/files/4b04e14d4e0eb8dd867cd80affb28cf9.png?v=1686774036",
+    "stock": 24,
+    "descripcion": "Capturadora de video - producto gamer categoría accesorio"
+  },
+  {
+    "id": 76,
+    "nombre": "Disco SSD NVMe 1TB",
+    "categoria": "hardware",
+    "precio": 3791,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYQFPUsRwfhnu-Mz-k6b5i89IwXCCNlPbrlA&s",
+    "stock": 24,
+    "descripcion": "Disco SSD NVMe 1TB - producto gamer categoría hardware"
+  },
+  {
+    "id": 77,
+    "nombre": "Disco SSD NVMe 1TB",
+    "categoria": "hardware",
+    "precio": 6767,
+    "imagen": "https://i5.walmartimages.com/asr/68eacada-535f-4e65-bdb6-5c9b3b3e8278.becc5072517727e5bc1594f49ec7dc8d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 11,
+    "descripcion": "Disco SSD NVMe 1TB - producto gamer categoría hardware"
+  },
+  {
+    "id": 78,
+    "nombre": "Alfombrilla XXL RGB",
+    "categoria": "accesorio",
+    "precio": 8637,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHM44vKYvF-cS3bjMJ0CxylSgmyXah__KU3g&s",
+    "stock": 44,
+    "descripcion": "Alfombrilla XXL RGB - producto gamer categoría accesorio"
+  },
+  {
+    "id": 79,
+    "nombre": "Procesador Ryzen 7 5800X",
+    "categoria": "hardware",
+    "precio": 6462,
+    "imagen": "https://via.placeholder.com/150",
+    "stock": 16,
+    "descripcion": "Procesador Ryzen 7 5800X - producto gamer categoría hardware"
+  },
+  {
+    "id": 80,
+    "nombre": "Hogwarts Legacy",
+    "categoria": "videojuego",
+    "precio": 2526,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMaOzt0BrCE1yKBvWKkptgieffrtPISaKieg&s",
+    "stock": 24,
+    "descripcion": "Hogwarts Legacy - producto gamer categoría videojuego"
+  },
+  {
+    "id": 81,
+    "nombre": "Control inalámbrico Xbox",
+    "categoria": "accesorio",
+    "precio": 1796,
+    "imagen": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00019638811374-3l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 46,
+    "descripcion": "Control inalámbrico Xbox - producto gamer categoría accesorio"
+  },
+  {
+    "id": 82,
+    "nombre": "Silent Hill 2: Remake",
+    "categoria": "videojuego",
+    "precio": 6312,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlxJfpl6oR6Rg7Y_-_JTM2YuYaZ8yekGucgA&s",
+    "stock": 14,
+    "descripcion": "Silent Hill 2: Remake - producto gamer categoría videojuego"
+  },
+  {
+    "id": 83,
+    "nombre": "Fuente de poder 750W",
+    "categoria": "hardware",
+    "precio": 4881,
+    "imagen": "https://m.media-amazon.com/images/I/71hVEM6V3JL._UF350,350_QL80_.jpg",
+    "stock": 45,
+    "descripcion": "Fuente de poder 750W - producto gamer categoría hardware"
+  },
+  {
+    "id": 84,
+    "nombre": "Monitor 144Hz 27 pulgadas",
+    "categoria": "hardware",
+    "precio": 4821,
+    "imagen": "https://i5.walmartimages.com/asr/92387d71-08cc-4408-be07-a622f88aba3d.2a9f5fc3406a9d515f317952c154b582.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 41,
+    "descripcion": "Monitor 144Hz 24 pulgadas - producto gamer categoría hardware"
+  },
+  {
+    "id": 85,
+    "nombre": "Base de enfriamiento",
+    "categoria": "accesorio",
+    "precio": 6439,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2avI4kcDdo9gOTRGIX1ntnUo0EZr3qn9XDw&s",
+    "stock": 50,
+    "descripcion": "Base de enfriamiento - producto gamer categoría accesorio"
+  },
+  {
+    "id": 86,
+    "nombre": "Silent Hill 3: Remake",
+    "categoria": "videojuego",
+    "precio": 1233,
+    "imagen": "https://i.redd.it/what-would-you-want-from-a-potential-silent-hill-3-remake-v0-o1rjvllvszoa1.png?width=1700&format=png&auto=webp&s=8f5a088e4363bf433e1bc55173a36236ec56cf59",
+    "stock": 22,
+    "descripcion": "Silent Hill 3: Remake - producto gamer categoría videojuego"
+  },
+  {
+    "id": 87,
+    "nombre": "Control inalámbrico Xbox",
+    "categoria": "accesorio",
+    "precio": 1471,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx2uUMGDvYNlahhKLLgTuYxGTbJz6AraRE0Q&s",
+    "stock": 18,
+    "descripcion": "Control inalámbrico Xbox - producto gamer categoría accesorio"
+  },
+  {
+    "id": 88,
+    "nombre": "Elden Ring",
+    "categoria": "videojuego",
+    "precio": 2520,
+    "imagen": "https://m.media-amazon.com/images/I/71GPiuyNtkL._UF1000,1000_QL80_.jpg",
+    "stock": 29,
+    "descripcion": "Elden Ring - producto gamer categoría videojuego"
+  },
+  {
+    "id": 89,
+    "nombre": "Alien Insolation",
+    "categoria": "videojuego",
+    "precio": 729,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Zjm6pHuMNAmRVZv3_rXzIAw7Zftj7py9bw&s",
+    "stock": 36,
+    "descripcion": "Red Dead Redemption 2 - producto gamer categoría videojuego"
+  },
+  {
+    "id": 90,
+    "nombre": "Silla gamer ergonómica",
+    "categoria": "accesorio",
+    "precio": 8001,
+    "imagen": "https://www.radioshack.com.mx/store/medias/515ftw-100206348.jpg?context=bWFzdGVyfHJvb3R8NTI5MDF8aW1hZ2UvanBlZ3xhR1JrTDJobU1pODVNalU0T0RJNE5EazJPVEkyTHpVeE5XWjBkMTh4TURBeU1EWXpORGd1YW5Cbnw2MGU3OTQ3ZjM2OTgwMDgyMjRlNzE4YzUyZWZmOTg5YTYzN2ZlZDdkMzEzOWZmZDE0ZGQyNmExZmJmNzE1NzBi",
+    "stock": 37,
+    "descripcion": "Silla gamer ergonómica - producto gamer categoría accesorio"
+  },
+  {
+    "id": 91,
+    "nombre": "Mouse gamer",
+    "categoria": "accesorio",
+    "precio": 4605,
+    "imagen": "https://www.stuffactory.mx/cdn/shop/files/STG-M01027_AbysmalPrime_3_8ee99a19-d6d0-4d8a-9b74-e5c048223794.jpg?v=1693202292",
+    "stock": 24,
+    "descripcion": "Mouse gamer 7200 DPI - producto gamer categoría accesorio"
+  },
+  {
+    "id": 92,
+    "nombre": "Refrigeración líquida",
+    "categoria": "hardware",
+    "precio": 3441,
+    "imagen": "https://m.media-amazon.com/images/I/81DPd4BmoHL.jpg",
+    "stock": 17,
+    "descripcion": "Refrigeración líquida - producto gamer categoría hardware"
+  },
+  {
+    "id": 93,
+    "nombre": "Procesador Ryzen 7 5800X",
+    "categoria": "hardware",
+    "precio": 5460,
+    "imagen": "https://ddtech.mx/assets/uploads/cc5154ce7dc72bc365505c165d3d391e.png",
+    "stock": 47,
+    "descripcion": "Procesador Ryzen 7 5800X - producto gamer categoría hardware"
+  },
+  {
+    "id": 94,
+    "nombre": "Halo 4 ",
+    "categoria": "videojuego",
+    "precio": 7751,
+    "imagen": "https://m.media-amazon.com/images/I/91T4yYM0eGL._UF1000,1000_QL80_.jpg",
+    "stock": 4,
+    "descripcion": "Halo 4 - producto gamer categoría videojuego"
+  },
+  {
+    "id": 95,
+    "nombre": "Hub USB 3.0",
+    "categoria": "accesorio",
+    "precio": 663,
+    "imagen": "https://i5.walmartimages.com/asr/ae891042-8032-485c-a253-e6ccbc63d493.f79daa96b17f8aafa04f164a252830ac.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "stock": 10,
+    "descripcion": "Hub USB 3.0 - producto gamer categoría accesorio"
+  },
+  {
+    "id": 96,
+    "nombre": "Alfombrilla XXL RGB",
+    "categoria": "accesorio",
+    "precio": 9120,
+    "imagen": "https://m.media-amazon.com/images/I/71RZBTx0o3L._UF894,1000_QL80_.jpg",
+    "stock": 42,
+    "descripcion": "Alfombrilla XXL RGB - producto gamer categoría accesorio"
+  },
+  {
+    "id": 97,
+    "nombre": "RAM 16GB DDR4",
+    "categoria": "hardware",
+    "precio": 465,
+    "imagen": "https://m.media-amazon.com/images/I/71rIspMTJwL.jpg",
+    "stock": 47,
+    "descripcion": "RAM 16GB DDR4 - producto gamer categoría hardware"
+  },
+  {
+    "id": 98,
+    "nombre": "Control inalámbrico Xbox",
+    "categoria": "accesorio",
+    "precio": 8018,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWqMNOtcSLsZDT3_t9aZWr-qsr9QMWI-gaSg&s",
+    "stock": 38,
+    "descripcion": "Control inalámbrico Xbox - producto gamer categoría accesorio"
+  },
+  {
+    "id": 99,
+    "nombre": "The Evil Within",
+    "categoria": "videojuego",
+    "precio": 2948,
+    "imagen": "https://juegosdigitalesmexico.mx/files/images/productos/1619053172-the-evil-within-ps5.jpg",
+    "stock": 39,
+    "descripcion": "The Witcher 3: Wild Hunt - producto gamer categoría videojuego"
+  },
+  {
+    "id": 100,
+    "nombre": "Silla gamer ergonómica",
+    "categoria": "accesorio",
+    "precio": 2048,
+    "imagen": "https://www.metalicosmonterrey.com/wp-content/uploads/2021/02/kultec-morada-.png",
+    "stock": 42,
+    "descripcion": "Silla gamer ergonómica - producto gamer categoría accesorio"
+  }
+]
