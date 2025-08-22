@@ -2,7 +2,7 @@ import logo from '../assets/logo.png';
 import CartWidget from './CartWidget';
 import { useState } from 'react';
 
-import '../NavBar.css';
+import '../Navbar.css';
 
 function Navbar() {
  
