@@ -12,7 +12,6 @@ html {
   height: 100%;
   background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #333333 100%);
   color: white;
-  /* Para que el texto se vea bien */
   font-family: sans-serif;
 }
 
@@ -80,13 +79,14 @@ html {
 }
 
 .navBarList {
- display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
   height: 80px;
   width: 100%;
 }
+
 .navBarList li {
   width: 100%;
   margin: 0px;
@@ -294,6 +294,3 @@ html {
   transform: scale(1.2);
   color: #ff6b6b;
 }
-
-
-export default Navbar;
