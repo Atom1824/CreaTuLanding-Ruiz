@@ -13,6 +13,7 @@ function Navbar() {
         <a href="">
           <img src={logo} alt="Logo" style={{ height: '100%' }} className='logo' />
         </a>
+        
         <div className='navBarList'>
           <li><a href="/">Inicio</a></li>
           <li><a href="#">PlayStation 5</a></li>
