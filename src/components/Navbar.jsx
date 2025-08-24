@@ -1,23 +1,19 @@
 import logo from '../assets/logo.png'; 
 import CartWidget from './CartWidget';
-import { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 import '../Navbar.css';
 
 function Navbar() {
- 
-
   return (
     <>
       <nav className='navBBar'>
-        <a href="">
+        <Link to="/">
           <img src={logo} alt="Logo" style={{ height: '100%' }} className='logo' />
-        </a>
-        
+        </Link>
         <div className='navBarList'>
-          <li><a href="/">Inicio</a></li>
-          <li><a href="#">PlayStation 5</a></li>
-          <li><a href="#">Catalogo</a></li>
+          <li><Link to="/">Inicio</Link></li>
+          <li><Link to="/categoria/videojuego">PlayStation 5</Link></li>
+          <li><Link to="/">Catalogo</Link></li>
         </div>
        <CartWidget/>
       </nav>
@@ -26,4 +22,3 @@ function Navbar() {
 }
 
 export default Navbar;
-

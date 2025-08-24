@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import loadingGif from '../assets/loading3.webp';
 import '/src/productos.css'; 
 import {useCart} from './CartContext.jsx';
 
@@ -92,7 +93,7 @@ function Productos({ mensaje }) {
   };
 
   if (loading) {
-    return <img src="./src/assets/loading3.webp" alt="Cargando..." className="loading" />;
+    return <img src={loadingGif} alt="Cargando..." className="loading" />;
   }
 
   return (
