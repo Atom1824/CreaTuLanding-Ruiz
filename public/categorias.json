@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Accesorios",
+    "slug": "accesorio",
+    "descripcion": "Todo tipo de accesorios gamer como sillas, mouse, teclados, micrófonos, capturadoras y más."
+  },
+  {
+    "id": 2,
+    "nombre": "Videojuegos",
+    "slug": "videojuego",
+    "descripcion": "Los mejores títulos para PC y consolas, desde clásicos hasta los lanzamientos más recientes."
+  },
+  {
+    "id": 3,
+    "nombre": "Hardware",
+    "slug": "hardware",
+    "descripcion": "Componentes y periféricos para mejorar tu PC gamer: tarjetas gráficas, RAM, motherboards, fuentes de poder y más."
+  }
+]
