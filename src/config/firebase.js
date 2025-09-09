@@ -1,24 +1,23 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from 'firebase/app';
-import { getFirestore } from 'firebase/firestore';
-import { getAuth } from 'firebase/auth';
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-// Replace these values with your actual Firebase config
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "your-api-key-here",
-  authDomain: "your-project-id.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project-id.appspot.com",
-  messagingSenderId: "your-sender-id",
-  appId: "your-app-id"
+  apiKey: "AIzaSyC8LVtRfBiaYtOSuftmhqa795bkasJ_07w",
+  authDomain: "gamestore-c51e4.firebaseapp.com",
+  projectId: "gamestore-c51e4",
+  storageBucket: "gamestore-c51e4.firebasestorage.app",
+  messagingSenderId: "244402447668",
+  appId: "1:244402447668:web:8674bf36b070a636e9f161",
+  measurementId: "G-RD3VHENZ9C"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-// Initialize Firebase services
-export const db = getFirestore(app);
-export const auth = getAuth(app);
+const analytics = getAnalytics(app);
 
 export default app;
