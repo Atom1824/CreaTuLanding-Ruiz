@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import loadingGif from '../assets/loading3.webp';
+import { getAllProducts, getProductsByCategory } from '../services/productService';
 import '/src/productos.css'; 
 import {useCart} from './CartContext.jsx';
+import loadingGif from '../assets/loading3.webp';
 
 function Productos({ mensaje }) {
   const navigate = useNavigate();
@@ -27,10 +28,19 @@ function Productos({ mensaje }) {
   useEffect(() => {
     const obtenerProductos = async () => {
       try {
-        await new Promise(resolve => setTimeout(resolve, 1000)); 
-
-        const response = await fetch('/productosgamer.json');
-        const data = await response.json();
+        // Try to get products from Firebase first
+        let data;
+        try {
+          data = await getAllProducts();
+          console.log('Products loaded from Firebase:', data.length);
+        } catch (firebaseError) {
+          console.log('Firebase not configured, falling back to JSON file');
+          // Fallback to JSON file if Firebase is not configured
+          await new Promise(resolve => setTimeout(resolve, 1000)); 
+          const response = await fetch('/productosgamer.json');
+          data = await response.json();
+        }
+        
         setProductos(data);
         
        
@@ -40,7 +50,14 @@ function Productos({ mensaje }) {
        
         if (categoriaId) {
           setCategoriaSeleccionada(categoriaId);
-          setProductosFiltrados(data.filter(producto => producto.categoria === categoriaId));
+          try {
+            // Try Firebase category filter first
+            const categoryProducts = await getProductsByCategory(categoriaId);
+            setProductosFiltrados(categoryProducts);
+          } catch {
+            // Fallback to local filtering
+            setProductosFiltrados(data.filter(producto => producto.categoria === categoriaId));
+          }
         } else {
           setProductosFiltrados(data);
         }

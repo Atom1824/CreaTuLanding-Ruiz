@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useCart } from './CartContext.jsx';
+import { getProductById } from '../services/productService';
 import loadingGif from '../assets/loading3.webp';
 import '../productos.css';
 
@@ -16,17 +17,26 @@ function ItemDetail() {
     const obtenerProducto = async () => {
       try {
         console.log("Buscando producto con ID:", id);
-        const response = await fetch('/productosgamer.json');
-        const data = await response.json();
         
-        const productoId = parseInt(id);
-        const productoEncontrado = data.find(p => p.id === productoId);
+        let productoEncontrado;
+        
+        try {
+          // Try Firebase first
+          productoEncontrado = await getProductById(id);
+          console.log("Producto encontrado en Firebase:", productoEncontrado);
+        } catch (firebaseError) {
+          console.log('Firebase not configured, falling back to JSON file');
+          // Fallback to JSON file
+          const response = await fetch('/productosgamer.json');
+          const data = await response.json();
+          const productoId = parseInt(id);
+          productoEncontrado = data.find(p => p.id === productoId);
+        }
         
         if (productoEncontrado) {
-          console.log("Producto encontrado:", productoEncontrado); 
           setProducto(productoEncontrado);
         } else {
-          console.log("Producto no encontrado para ID:", productoId); 
+          console.log("Producto no encontrado para ID:", id); 
         }
       } catch (error) {
         console.error("Error al cargar el producto:", error);
