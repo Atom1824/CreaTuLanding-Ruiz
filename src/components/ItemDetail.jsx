@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useCart } from './CartContext.jsx';
 import { getProductById } from '../services/productService';
-import loadingGif from '../assets/loading3.webp';
 import '../productos.css';
 
 function ItemDetail() {
@@ -74,7 +73,7 @@ function ItemDetail() {
   };
 
   if (loading) {
-    return <img src={loadingGif} alt="Cargando..." className="loading" />;
+    return <div className="loading">Cargando...</div>;
   }
 
   if (!producto) {

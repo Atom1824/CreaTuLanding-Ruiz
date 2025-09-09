@@ -21,22 +21,36 @@ export function CartProvider({ children }) {
     setCartItems((prev) => prev.filter((_, i) => i !== index));
   };
 
-  const purchase = () => {
-    const completePurchase = async () => {
-      try {
-        // Calculate total
-        const total = cartItems.reduce((sum, item) => {
-          const cantidad = item.cantidad || 1;
-          return sum + (item.precio * cantidad);
-        }, 0);
+  const purchase = async () => {
+    try {
+      // Calculate total
+      const total = cartItems.reduce((sum, item) => {
+        const cantidad = item.cantidad || 1;
+        return sum + (item.precio * cantidad);
+      }, 0);
 
-        // Create order data
-        const orderData = {
-          items: cartItems,
-          total: total,
-          customerEmail: 'customer@example.com', // You can get this from auth context
-          customerName: 'Customer Name' // You can get this from a form or auth context
-        };
+      // Create order data
+      const orderData = {
+        items: cartItems,
+        total: total,
+        customerEmail: 'customer@example.com',
+        customerName: 'Customer Name'
+      };
+
+      try {
+        // Try to save to Firebase
+        const orderId = await createOrder(orderData);
+        alert(`¡Compra realizada con éxito! 🎉\nNúmero de orden: ${orderId}`);
+      } catch (firebaseError) {
+        console.log('Firebase not configured, order not saved');
+        alert("¡Compra realizada con éxito! 🎉");
+      }
+      
+      setCartItems([]);
+    } catch (error) {
+      console.error('Error processing purchase:', error);
+      alert("Error al procesar la compra. Inténtalo de nuevo.");
+    }
   };
 
   useEffect(() => {
@@ -53,21 +67,3 @@ export function CartProvider({ children }) {
 export function useCart() {
   return useContext(CartContext);
 }
-
-        try {
-          // Try to save to Firebase
-          const orderId = await createOrder(orderData);
-          alert(`¡Compra realizada con éxito! 🎉\nNúmero de orden: ${orderId}`);
-        } catch (firebaseError) {
-          console.log('Firebase not configured, order not saved');
-          alert("¡Compra realizada con éxito! 🎉");
-        }
-        
-        setCartItems([]);
-      } catch (error) {
-        console.error('Error processing purchase:', error);
-        alert("Error al procesar la compra. Inténtalo de nuevo.");
-      }
-    };
-
-    completePurchase();

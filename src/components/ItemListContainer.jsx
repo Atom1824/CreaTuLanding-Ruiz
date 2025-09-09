@@ -3,7 +3,6 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { getAllProducts, getProductsByCategory } from '../services/productService';
 import '/src/productos.css'; 
 import {useCart} from './CartContext.jsx';
-import loadingGif from '../assets/loading3.webp';
 
 function Productos({ mensaje }) {
   const navigate = useNavigate();
@@ -110,7 +109,7 @@ function Productos({ mensaje }) {
   };
 
   if (loading) {
-    return <img src={loadingGif} alt="Cargando..." className="loading" />;
+    return <div className="loading">Cargando...</div>;
   }
 
   return (
