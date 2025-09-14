@@ -1,4 +1,3 @@
-// CartContext.jsx
 import { createContext, useState, useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -7,7 +6,6 @@ const CartContext = createContext();
 export function CartProvider({ children }) {
   const navigate = useNavigate();
 
-  // Inicializa el carrito desde localStorage
   const [cartItems, setCartItems] = useState(() => {
     const savedCart = localStorage.getItem("cart");
     return savedCart ? JSON.parse(savedCart) : [];
