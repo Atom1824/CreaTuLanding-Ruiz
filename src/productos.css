@@ -561,3 +561,10 @@ body {
     width: 100%;
   }
 }
+
+.loading img {
+  display: block;
+  margin: 50px auto;
+  width: 100px;
+  height: auto;
+}

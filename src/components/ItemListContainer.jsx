@@ -86,7 +86,7 @@ function ItemListContainer({ mensaje }) {
   };
 
   if (loading) {
-    return <div className="loading">Cargando...</div>;
+    return <div className="loading"><img src={loadingGif} alt="loading icon" /></div>;
   }
 
   return (
