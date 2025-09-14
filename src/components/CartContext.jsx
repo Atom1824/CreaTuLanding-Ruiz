@@ -1,36 +1,53 @@
+// CartContext.jsx
 import { createContext, useState, useContext, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const CartContext = createContext();
 
 export function CartProvider({ children }) {
+  const navigate = useNavigate();
+
+  // Inicializa el carrito desde localStorage
   const [cartItems, setCartItems] = useState(() => {
     const savedCart = localStorage.getItem("cart");
     return savedCart ? JSON.parse(savedCart) : [];
   });
 
-  const addItem = (producto) => {
-    setCartItems((prev) => [...prev, producto]);
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cartItems));
+  }, [cartItems]);
+
+  const addItem = (producto, cantidad = 1) => {
+    setCartItems((prev) => {
+      const itemExistente = prev.find(item => item.id === producto.id);
+      if (itemExistente) {
+        return prev.map(item =>
+          item.id === producto.id
+            ? { ...item, cantidad: item.cantidad + cantidad }
+            : item
+        );
+      } else {
+        return [...prev, { ...producto, cantidad }];
+      }
+    });
+  };
+
+  const removeItem = (id) => {
+    setCartItems(prev => prev.filter(item => item.id !== id));
   };
 
   const clearCart = () => {
     setCartItems([]);
   };
 
-  const removeItem = (index) => {
-    setCartItems((prev) => prev.filter((_, i) => i !== index));
-  };
-
   const purchase = () => {
-    alert("¡Compra realizada con éxito! 🎉");
-    setCartItems([]);
+    navigate("/checkout");
   };
-
-  useEffect(() => {
-    localStorage.setItem("cart", JSON.stringify(cartItems));
-  }, [cartItems]);
 
   return (
-    <CartContext.Provider value={{ cartItems, addItem, clearCart, removeItem, purchase }}>
+    <CartContext.Provider
+      value={{ cartItems, addItem, removeItem, clearCart, purchase }}
+    >
       {children}
     </CartContext.Provider>
   );

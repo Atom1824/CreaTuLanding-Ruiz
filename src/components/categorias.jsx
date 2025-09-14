@@ -1,4 +1,3 @@
-// src/components/Categorias.jsx
 function Categorias({ categorias, categoriaSeleccionada, onSelectCategoria }) {
   return (
     <div className="categorias-container">

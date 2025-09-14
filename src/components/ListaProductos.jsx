@@ -1,4 +1,3 @@
-// src/components/ListaProductos.jsx
 import Producto from "./Producto";
 
 function ListaProductos({ productos, onVerDetalle }) {

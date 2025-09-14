@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/NavBar.jsx';
 import Productos from './components/ItemListContainer.jsx';
@@ -6,6 +5,7 @@ import ItemDetail from './components/ItemDetail.jsx';
 import Footer from './components/Footer.jsx';
 import { CartProvider } from './components/CartContext.jsx';
 import NotFound from './components/NotFound.jsx';
+import Checkout from './components/Checkout.jsx'; // <-- Importa el componente
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
               <Route path="/" element={<Productos mensaje="Bienvenido a nuestra tienda" />} />
               <Route path="/categoria/:categoriaId" element={<Productos mensaje="Productos por categoría" />} />
               <Route path="/producto/:id" element={<ItemDetail />} />
+              <Route path="/checkout" element={<Checkout />} /> {/* <-- Ruta agregada */}
               <Route path="*" element={<NotFound/>} />
             </Routes>
           </main>

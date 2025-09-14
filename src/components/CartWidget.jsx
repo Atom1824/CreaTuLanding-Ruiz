@@ -39,13 +39,13 @@ function CartWidget() {
                         {item.cantidad && <span className="cart-item-quantity">x{item.cantidad}</span>}
                       </div>
                     </div>
-                    <button 
-                      onClick={() => removeItem(index)} 
-                      className="remove-item-btn"
-                      title="Eliminar del carrito"
-                    >
-                      ❌
-                    </button>
+                   <button 
+  onClick={() => removeItem(item.id)} 
+  className="remove-item-btn"
+  title="Eliminar del carrito"
+>
+  ❌
+</button>
                   </li>
                 ))}
               </ul>

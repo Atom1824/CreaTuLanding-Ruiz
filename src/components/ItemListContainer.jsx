@@ -5,6 +5,8 @@ import '../productos.css';
 import { useCart } from '../components/CartContext.jsx';
 import Categorias from '../components/Categorias.jsx';
 import ListaProductos from '../components/ListaProductos.jsx';
+import { collection, getDocs } from 'firebase/firestore';
+import { db } from '../firebaseConfig.js';
 
 function ItemListContainer({ mensaje }) {
   const navigate = useNavigate();
@@ -23,31 +25,31 @@ function ItemListContainer({ mensaje }) {
   };
 
   useEffect(() => {
-    const obtenerProductos = async () => {
-      try {
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        const response = await fetch('/productosgamer.json');
-        const data = await response.json();
+  const obtenerProductos = async () => {
+    try {
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      const querySnapshot = await getDocs(collection(db, "productos"));
+      const data = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 
-        setProductos(data);
-        const categoriasUnicas = ['todas', ...new Set(data.map(p => p.categoria))];
-        setCategorias(categoriasUnicas);
+      setProductos(data);
+      const categoriasUnicas = ['todas', ...new Set(data.map(p => p.categoria))];
+      setCategorias(categoriasUnicas);
 
-        if (categoriaId) {
-          setCategoriaSeleccionada(categoriaId);
-          setProductosFiltrados(data.filter(p => p.categoria === categoriaId));
-        } else {
-          setProductosFiltrados(data);
-        }
-      } catch (error) {
-        console.error("Error al cargar los productos:", error);
-      } finally {
-        setLoading(false);
+      if (categoriaId) {
+        setCategoriaSeleccionada(categoriaId);
+        setProductosFiltrados(data.filter(p => p.categoria === categoriaId));
+      } else {
+        setProductosFiltrados(data);
       }
-    };
+    } catch (error) {
+      console.error("Error al cargar los productos:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-    obtenerProductos();
-  }, [categoriaId]);
+  obtenerProductos();
+}, [categoriaId]);
 
   const filtrarProductos = (categoria = categoriaSeleccionada, textoBusqueda = busqueda) => {
     let filtrados = productos;

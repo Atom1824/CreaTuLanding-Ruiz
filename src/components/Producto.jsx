@@ -1,4 +1,3 @@
-// src/components/Producto.jsx
 function Producto({ producto, onVerDetalle }) {
   return (
     <div className="product-item" data-aos="fade-up">
